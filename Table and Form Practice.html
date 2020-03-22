@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form and Table Practice</title>
+</head>
+<body>
+  <header>
+      <h1><strong>Mark's HTML Form & Table Practice</strong></h1>
+  </header>
+  <hr>
+  <nav>
+      <h2><a href="#form">Form</a> </h2>
+      <h2><a href="#table">Table</a></h2>
+  </nav>
+  <hr>
+  <main>
+      <form id="form" action="" method="POST">
+          <label for="firstname">First Name:</label>
+          <input type="text" name="firstname" id="firstname">
+          <br>
+          <label for="lastname">Last Name:</label>
+          <input type="text" name="lastname" id="lastname">
+          <br>
+          <label for="birthday">Age:</label>
+          <input type="date" name="birthday" id="birthday">
+          <br>
+          <label for="white">White</label>
+          <input type="radio" name="ethnicity" id="white" value="white">
+          <label for="hispanic or latino">Hispanic or Latino</label>
+          <input type="radio" name="ethnicity" id="hispanic or latino" value="hispanic or latino">
+          <label for="black">Black</label>
+          <input type="radio" name="ethnicity" id="black" value="black" checked>
+          <label for="native american">Native American</label>
+          <input type="radio" name="ethnicity" id="native american" value="native american">
+          <label for="asian">Asian</label>
+          <input type="radio" name="ethnicity" id="asian" value="asian">
+          <br>
+          <label for="hair color">Hair Color:</label>
+          <select id="hair color">
+              <option value="black">Black</option>
+              <option value="brown">Brown</option>
+              <option value="blond">Blonde</option>
+              <option value="red">Red</option>
+              <option value="no hair">No Hair</option>
+          </select>
+          <br>
+          <label for="states">State:</label>
+          <input list="states" name="states">
+          <datalist id="states">
+              <option value="Ohio">
+              <option value="Pennsylvania">
+              <option value="Tennessee">
+              <option value="Texas">
+          </datalist>
+          <br>
+          <p>Language(s) spoken:</p>
+          <label for="english" checked>English</label>
+          <input type="checkbox" name="language" id="english">
+          <label for="spanish">Spanish</label>
+          <input type="checkbox" name="language" id="spanish">
+          <label for="french">French</label>
+          <input type="checkbox" name="language" id="french">
+          <label for="zulu">Zulu</label>
+          <input type="checkbox" name="language" id="zulu">
+          <br><br>
+          <input type="submit" value="process Form">
+      </form>
+      <hr>
+      <br>
+      <table id="table" border="1">
+          <thead>
+            <tr>
+                <td colspan="4">Table Header</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>1</td>
+                <td>The</td>
+                <td>Table</td>
+                <td>Body</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>The</td>
+                <td>Table</td>
+                <td>Body</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>The</td>
+                <td>Table</td>
+                <td>Body</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr >
+                <td colspan="4">Table Footer</td>
+            </tr>
+          </tfoot>
+      </table>
+  </main>
+
+</body>
+</html>
